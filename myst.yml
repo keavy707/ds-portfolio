@@ -1,0 +1,37 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 65d8e97e-0e86-4c7f-a883-f42750449956
+  title: "Elective 4 Portfolio"
+  description: "A collection of activities and assignments"
+  
+  authors: 
+    - "Andrea Keavy Ocay"
+  
+  toc:
+    - file: intro.md
+    - title: Assignments
+      children:
+        - file: assignments/assignment-01.ipynb
+    
+    - title: Lab Activities
+      children:
+        - file: activities/lab-activities-01.ipynb
+        - file: activities/lab-activities-02.ipynb
+        - file: activities/lab-activities-03.ipynb
+        - file: activities/lab-activities-04.ipynb
+        - file: activities/lab-activities-05.ipynb
+        - file: activities/lab-activities-06.ipynb
+        - file: activities/lab-activities-07.ipynb
+    
+    - title: Projects
+      children:
+        - file: projects/projects-01.ipynb
+    
+
+
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
