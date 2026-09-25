@@ -7,12 +7,20 @@ project:
   
   authors: 
     - "Andrea Keavy Ocay"
-  
-  toc:
+
+
+exclude:
+    - README.md
+    - templates/**
+    - "**/.ipynb_checkpoints/**"
+    - "**/data/**"
+    
+toc:
     - file: intro.md
     - title: Assignments
       children:
-        - file: assignments/assignment-01.ipynb
+      - file: projects/assignments.md
+      - file: assignments/assignment-01.ipynb
     
     - title: Lab Activities
       children:
@@ -26,7 +34,8 @@ project:
     
     - title: Projects
       children:
-        - file: projects/projects-01.ipynb
+      - file: projects/index.md
+      - file: projects/projects-01.ipynb
     
 
 
@@ -35,3 +44,19 @@ site:
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
+
+  hide_toc: false            
+  hide_outline: false        
+  outline_maxdepth: 3        
+  hide_title_block: false
+  hide_footer_links: false   
+  hide_search: false
+  folders: true        
+
+nav:
+    - title: Assignments
+      url: /assignments/index
+    - title: Lab Activities
+      url: /lab-activities/index
+    - title: Projects
+      url: /projects/index

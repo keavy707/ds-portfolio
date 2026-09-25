@@ -1,3 +1,7 @@
+title: Home
+subtitle: Data Science Portfolio for Elective 4 by Andrea Keavy Ocay
+short_title: Home
+
 # My Jupyter Book
 
 Welcome to my **Personal Data Science Portfolio**. This website showcases my
