@@ -2,61 +2,64 @@
 version: 1
 project:
   id: 65d8e97e-0e86-4c7f-a883-f42750449956
-  title: "Elective 4 Portfolio"
+  title: "Home"
+  short_title: "Home"
   description: "A collection of activities and assignments"
   
   authors: 
     - "Andrea Keavy Ocay"
 
 
-exclude:
+  exclude:
     - README.md
     - templates/**
     - "**/.ipynb_checkpoints/**"
     - "**/data/**"
     
-toc:
+  toc:
+    - image: icon.png
     - file: intro.md
+      title: Home
+
     - title: Assignments
       children:
-      - file: projects/assignments.md
+      - file: assignments/index.md
+        title: Assignments Overview
       - file: assignments/assignment-01.ipynb
     
     - title: Lab Activities
       children:
-        - file: activities/lab-activities-01.ipynb
-        - file: activities/lab-activities-02.ipynb
-        - file: activities/lab-activities-03.ipynb
-        - file: activities/lab-activities-04.ipynb
-        - file: activities/lab-activities-05.ipynb
-        - file: activities/lab-activities-06.ipynb
-        - file: activities/lab-activities-07.ipynb
+      - file: activities/index.md
+        title: Lab Activities Overview
+
+      - file: activities/lab-activity-01.ipynb
+      - file: activities/lab-activity-02.ipynb
+      - file: activities/lab-activity-03.ipynb
+      - file: activities/lab-activity-04.ipynb
+      - file: activities/lab-activity-05.ipynb
+      - file: activities/lab-activity-06.ipynb
+      - file: activities/lab-activity-07.ipynb
+      - file: activities/lab-activity-08.ipynb
     
     - title: Projects
       children:
       - file: projects/index.md
+        title: Projects Overview
       - file: projects/projects-01.ipynb
     
 
 
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  title: "Elective 4 Portfolio"
 
-  hide_toc: false            
-  hide_outline: false        
-  outline_maxdepth: 3        
-  hide_title_block: false
-  hide_footer_links: false   
-  hide_search: false
-  folders: true        
-
-nav:
-    - title: Assignments
-      url: /assignments/index
-    - title: Lab Activities
-      url: /lab-activities/index
-    - title: Projects
-      url: /projects/index
+  options:
+    logo_text: "Data Science Portfolio"
+    favicon: ./images/icon.png
+    hide_toc: false
+    hide_outline: false
+    outline_maxdepth: 3
+    hide_title_block: true
+    hide_footer_links: false
+    hide_search: false
+    folders: true       
