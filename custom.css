@@ -1,0 +1,82 @@
+/* =========================
+   CUSTOM PORTFOLIO COLORS
+   ========================= */
+
+   :root {
+    --myst-color-bg: rgb(21, 24, 36);
+    --myst-color-bg-secondary: rgb(21, 24, 36);
+    --myst-color-surface: rgb(21, 24, 36);
+
+    --myst-color-text: #ffffff;
+    --myst-color-text-secondary: #ffffff;
+    --myst-color-text-tertiary: #ffffff;
+    --myst-color-prose-body: #ffffff;
+
+    --myst-color-border: #555555;
+}
+
+
+/* =========================
+   FORCE MAIN CONTENT TEXT
+   ========================= */
+
+body {
+    background: rgb(21, 24, 36) !important;
+    color: #ffffff !important;
+}
+
+main {
+    color: #ffffff !important;
+}
+
+main p,
+main li,
+main td,
+main th,
+main span {
+    color: #ffffff !important;
+}
+
+
+/* =========================
+   HEADINGS
+   ========================= */
+
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+    color: #303030 !important;
+}
+
+
+/* =========================
+   BOLD / STRONG TEXT
+   ========================= */
+
+main strong,
+main b {
+    color: #ffffff !important;
+}
+
+
+/* =========================
+   SIDEBAR
+   ========================= */
+
+.primary-sidebar,
+.primary-sidebar a {
+    color: #ffffff !important;
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+header,
+header a {
+    color: #ffffff !important;
+}

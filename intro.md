@@ -5,9 +5,11 @@ short_title: Home
 ---
 &nbsp;
 
+
+
 # Welcome
 
-Hello! I am **Andrea Keavy Ocay**, a Data Science student and this website showcases my learning journey, projects, analyses, and practical applications of Data Science
+Hello! I'm a Data Science student and this website showcases my learning journey, projects, analyses, and practical applications of Data Science
 throughout the course.
 
 ## About Me
