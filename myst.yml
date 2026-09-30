@@ -17,7 +17,6 @@ project:
     - "**/data/**"
     
   toc:
-    - image: icon.png
     - file: intro.md
       title: Home
 
