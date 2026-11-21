@@ -44,6 +44,7 @@ project:
       children:
       - file: projects/index.md
         title: Projects Overview
+        
       - file: projects/projects-01.ipynb
     
 
